@@ -1,6 +1,7 @@
-# SELECT * FROM developers WHERE name = 'Luis Aristizabal';
-
 <div align="center">
+
+# LUIS ARISTIZABAL
+### Electrical & Electronic Engineering — Technical Datasheet · Rev. 1.0
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-angel-aristizabal-correa-09015a359/)
 [![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luis0415angelco@gmail.com)
@@ -9,30 +10,52 @@
 
 ---
 
-```sql
-CREATE TABLE luis_aristizabal (
-    role                VARCHAR(100) PRIMARY KEY DEFAULT 'Electrical & Electronic Engineering Student',
-    location            VARCHAR(50) DEFAULT 'Bogotá, Colombia',
-    university          VARCHAR(100) DEFAULT 'Universidad de los Andes',
-    degrees             TEXT[] DEFAULT ARRAY['Electrical Engineering', 'Electronic Engineering'],
+## GENERAL DESCRIPTION
 
-    -- Core Stack
-    embedded_stack      TEXT[] DEFAULT ARRAY['ESP32', 'Arduino', 'I2C/SPI', 'State Machines'],
-    power_energy_stack  TEXT[] DEFAULT ARRAY['DC-DC Converters', 'Microgrids', 'Power Supplies'],
-    software_stack      TEXT[] DEFAULT ARRAY['Python', 'MATLAB', 'LaTeX', 'C++'],
-
-    -- Current Work
-    main_project        VARCHAR(100) DEFAULT 'PV Array Emulator for DC Microgrids',
-    project_url         VARCHAR(200) DEFAULT 'github.com/laristizabal1/PV-Emulator',
-
-    -- Contact
-    email               VARCHAR(100) DEFAULT 'luis0415angelco@gmail.com'
-);
-```
+Estudiante de doble programa en Ingeniería Eléctrica e Ingeniería Electrónica en la Universidad de los Andes (Bogotá, Colombia). Trabajo enfocado en electrónica de potencia, sistemas embebidos y control aplicado — desde emuladores fotovoltaicos trazables hasta plataformas robóticas gobernadas por máquinas de estado.
 
 ---
 
-## GitHub Stats
+## FEATURES
+
+- Doble titulación: B.Sc. Ingeniería Eléctrica + B.Sc. Ingeniería Electrónica
+- Diseño e instrumentación de fuentes DC programables para microrredes
+- Firmware embebido sobre ESP32/Arduino con máquinas de estado y control en tiempo real
+- Fusión sensorial (IMU, sensores de color, telemetría inalámbrica) para plataformas robóticas
+
+---
+
+## PIN CONFIGURATION — ÁREAS DE INTERÉS
+
+<div align="center">
+  <img src="assets/pinout.svg" alt="Diagrama de pines" width="600"/>
+</div>
+
+---
+
+## ELECTRICAL CHARACTERISTICS
+
+| Parámetro | Símbolo | Condición / Herramientas | Estado |
+|---|---|---|---|
+| Electrónica de Potencia | P_EE | Convertidores DC-DC, microrredes DC | Competente |
+| Sistemas Embebidos | µC | ESP32, Arduino | Competente |
+| Procesamiento de Señales | DSP | Python, MATLAB | Competente |
+| Diseño de Circuitos | PCB | KiCad | Básico–Intermedio |
+| Documentación Técnica | LaTeX | Reportes, papers | Competente |
+
+---
+
+## TYPICAL APPLICATIONS
+
+| Aplicación | Descripción | Tecnologías |
+|---|---|---|
+| [**PV Array Emulator**](https://github.com/laristizabal1/PV-Emulator.git) | Emulador trazable de arreglo fotovoltaico basado en fuente DC programable, para microrredes DC | `Power Electronics` `DC Microgrids` `Instrumentation` |
+| [**limpiaVidrios**](https://github.com/fgutep/limpiaVidrios.git) | Robot limpiavidrios gobernado por una máquina de estados para los motores; indicadores NeoPixel por nivel de voltaje, sensor de color TCS34725, IMU MPU6050 para orientación, control por gamepad (Bluepad32) y telemetría WiFi. Proyecto colaborativo con Felipe Gutiérrez | `ESP32` `State Machines` `MPU6050` `NeoPixel` |
+| [**MENTORU**](https://github.com/fg-edu-tep/MENTORU.git) | Wearable inteligente para corrección de postura, con retroalimentación en tiempo real basada en IMU | `ESP32` `MPU6050` `OLED` |
+
+---
+
+## MEASURED PERFORMANCE
 
 <div align="center">
 
@@ -44,48 +67,25 @@ CREATE TABLE luis_aristizabal (
 
 ---
 
-## Tech Stack
+## ORDERING INFORMATION
 
-```sql
-SELECT * FROM skills ORDER BY field;
-```
-
-### Hardware & Embebidos
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
-
-### Software & Análisis
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-### Herramientas
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+| Canal | Referencia |
+|---|---|
+| Correo | luis0415angelco@gmail.com |
+| LinkedIn | [luis-angel-aristizabal-correa](https://www.linkedin.com/in/luis-angel-aristizabal-correa-09015a359/) |
 
 ---
 
-## Featured Projects
+## REVISION HISTORY
 
-```sql
-SELECT project_name, description, tech_stack FROM projects WHERE featured = true;
-```
-
-| Project | Description | Tech Stack |
+| Rev | Fecha | Descripción |
 |---|---|---|
-| [**PV Array Emulator**](https://github.com/laristizabal1/PV-Emulator.git) | Emulador trazable de arreglo fotovoltaico basado en fuente DC programable, para microrredes DC | `Power Electronics` `DC Microgrids` `Instrumentation` |
-| [**limpiaVidrios**](https://github.com/fgutep/limpiaVidrios.git) | Robot limpiavidrios controlado mediante una máquina de estados para los motores, con indicadores luminosos NeoPixel según nivel de voltaje, sensor de color TCS34725, giroscopio/acelerómetro MPU6050 para orientación, control remoto por gamepad (Bluepad32) y telemetría vía WiFi (ESPAsyncWebServer). Proyecto colaborativo con Felipe Gutiérrez | `ESP32` `State Machines` `MPU6050` `NeoPixel` `Bluepad32` |
-| **MENTORU** | Wearable inteligente para corrección de postura (IMU + retroalimentación en tiempo real) | `ESP32` `MPU6050` `OLED` |
-
----
+| 1.0 | 2026-07 | Publicación inicial del perfil |
 
 <div align="center">
 
-### De los circuitos al código
+*No se garantiza linealidad en las ideas fuera del rango de operación recomendado.*
 
 <img src="https://komarev.com/ghpvc/?username=laristizabal1&label=Profile+Views&color=0e75b6&style=flat-square" alt="profile views" />
-<img src="https://img.shields.io/github/followers/laristizabal1?style=flat-square&color=0e75b6&labelColor=0D1117" alt="followers" />
 
 </div>
