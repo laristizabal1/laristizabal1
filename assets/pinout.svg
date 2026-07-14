@@ -1,0 +1,42 @@
+<svg width="680" height="240" viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Diagrama de pines - areas de interes de Luis Aristizabal</title>
+<style>
+  .chip-fill { fill: #f6f6f4; }
+  .chip-stroke { stroke: #3d3d3a; }
+  .line-stroke { stroke: #8a8a83; }
+  .text-main { fill: #2c2c2a; }
+  .text-sub { fill: #5f5e5a; }
+  @media (prefers-color-scheme: dark) {
+    .chip-fill { fill: #2a2a28; }
+    .chip-stroke { stroke: #d3d1c7; }
+    .line-stroke { stroke: #7a7972; }
+    .text-main { fill: #eceae2; }
+    .text-sub { fill: #b4b2a9; }
+  }
+  text { font-family: 'Courier New', monospace; font-size: 14px; }
+  .sub { font-size: 12px; }
+</style>
+
+<rect class="chip-fill chip-stroke" x="250" y="40" width="180" height="160" rx="6" stroke-width="1"/>
+<circle class="chip-stroke" cx="262" cy="52" r="3" fill="#3d3d3a"/>
+<text class="text-main" x="340" y="116" text-anchor="middle" font-weight="bold">L. ARISTIZABAL</text>
+<text class="text-sub sub" x="340" y="136" text-anchor="middle">EE / EI</text>
+
+<line class="line-stroke" x1="210" y1="60"  x2="250" y2="60"/>
+<line class="line-stroke" x1="210" y1="100" x2="250" y2="100"/>
+<line class="line-stroke" x1="210" y1="140" x2="250" y2="140"/>
+<line class="line-stroke" x1="210" y1="180" x2="250" y2="180"/>
+<text class="text-main" x="205" y="64"  text-anchor="end">1  Energía</text>
+<text class="text-main" x="205" y="104" text-anchor="end">2  Potencia</text>
+<text class="text-main" x="205" y="144" text-anchor="end">3  Embebidos</text>
+<text class="text-main" x="205" y="184" text-anchor="end">4  Instrumentación</text>
+
+<line class="line-stroke" x1="430" y1="60"  x2="470" y2="60"/>
+<line class="line-stroke" x1="430" y1="100" x2="470" y2="100"/>
+<line class="line-stroke" x1="430" y1="140" x2="470" y2="140"/>
+<line class="line-stroke" x1="430" y1="180" x2="470" y2="180"/>
+<text class="text-main" x="475" y="64"  text-anchor="start">5  Control</text>
+<text class="text-main" x="475" y="104" text-anchor="start">6  Señales</text>
+<text class="text-main" x="475" y="144" text-anchor="start">7  Comunicaciones</text>
+<text class="text-main" x="475" y="184" text-anchor="start">8  Datos</text>
+</svg>
