@@ -67,15 +67,6 @@ Estudiante de doble programa en Ingeniería Eléctrica e Ingeniería Electrónic
 
 ---
 
-## ORDERING INFORMATION
-
-| Canal | Referencia |
-|---|---|
-| Correo | luis0415angelco@gmail.com |
-| LinkedIn | [luis-angel-aristizabal-correa](https://www.linkedin.com/in/luis-angel-aristizabal-correa-09015a359/) |
-
----
-
 ## REVISION HISTORY
 
 | Rev | Fecha | Descripción |
