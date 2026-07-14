@@ -1,5 +1,5 @@
 <svg width="680" height="240" viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>Diagrama de pines - areas de interes de Luis Aristizabal</title>
+<title>Pin diagram - Luis Aristizabal's areas of interest</title>
 <style>
   .chip-fill { fill: #f6f6f4; }
   .chip-stroke { stroke: #3d3d3a; }
@@ -26,17 +26,17 @@
 <line class="line-stroke" x1="210" y1="100" x2="250" y2="100"/>
 <line class="line-stroke" x1="210" y1="140" x2="250" y2="140"/>
 <line class="line-stroke" x1="210" y1="180" x2="250" y2="180"/>
-<text class="text-main" x="205" y="64"  text-anchor="end">1  Energía</text>
-<text class="text-main" x="205" y="104" text-anchor="end">2  Potencia</text>
-<text class="text-main" x="205" y="144" text-anchor="end">3  Embebidos</text>
-<text class="text-main" x="205" y="184" text-anchor="end">4  Instrumentación</text>
+<text class="text-main" x="205" y="64"  text-anchor="end">1  Energy</text>
+<text class="text-main" x="205" y="104" text-anchor="end">2  Power</text>
+<text class="text-main" x="205" y="144" text-anchor="end">3  Embedded</text>
+<text class="text-main" x="205" y="184" text-anchor="end">4  Instrumentation</text>
 
 <line class="line-stroke" x1="430" y1="60"  x2="470" y2="60"/>
 <line class="line-stroke" x1="430" y1="100" x2="470" y2="100"/>
 <line class="line-stroke" x1="430" y1="140" x2="470" y2="140"/>
 <line class="line-stroke" x1="430" y1="180" x2="470" y2="180"/>
 <text class="text-main" x="475" y="64"  text-anchor="start">5  Control</text>
-<text class="text-main" x="475" y="104" text-anchor="start">6  Señales</text>
-<text class="text-main" x="475" y="144" text-anchor="start">7  Comunicaciones</text>
-<text class="text-main" x="475" y="184" text-anchor="start">8  Datos</text>
+<text class="text-main" x="475" y="104" text-anchor="start">6  Signals</text>
+<text class="text-main" x="475" y="144" text-anchor="start">7  Communications</text>
+<text class="text-main" x="475" y="184" text-anchor="start">8  Data</text>
 </svg>
