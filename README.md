@@ -12,7 +12,7 @@
 
 ## GENERAL DESCRIPTION
 
-Dual-degree student in Electrical Engineering and Electronic Engineering at Universidad de los Andes (Bogotá, Colombia). Work focused on power electronics, embedded systems, and applied control — from traceable photovoltaic emulators to robotic platforms governed by state machines.
+Dual-degree student in Electrical Engineering and Electronic Engineering at Universidad de los Andes (Bogotá, Colombia), working across the stack from power electronics instrumentation to distributed control theory. Recent work spans traceable photovoltaic array emulation for DC microgrids, population-game-based coordination for electric vehicle charging benchmarked against model predictive control, and embedded multi-sensor wearables combining IMU-based gesture detection, RF communication, and real-time web telemetry. Projects are consistently built on state-machine control logic and validated against theoretical or centralized-optimum benchmarks rather than left unverified.
 
 ---
 
@@ -50,11 +50,11 @@ Dual-degree student in Electrical Engineering and Electronic Engineering at Univ
 
 | Application | Description | Technologies |
 |---|---|---|
+| [**PV Array Emulator**](https://github.com/laristizabal1/PV-Emulator.git) | Traceable photovoltaic array emulator built around a programmable DC power supply (EA-PS 10060-170): computes the MPP and I-V curve from real solar data (NASA POWER API) via single/two-diode models, drives the source over SCPI, and exposes live measurements through an optional Modbus TCP bridge for SCADA/PLC integration. Validated against real MPPT-inverter and electronic-load hardware | `Power Electronics` `DC Microgrids` `SCPI` `Modbus TCP` `Dash` |
 | [**EV-Charging-GT**](https://github.com/laristizabal1/EV-Charging-GT.git) | Distributed EV charging coordination via Generalized Nash Equilibrium population games (PG-GNE), benchmarked against MPC and the centralized optimum (CasADi + IPOPT) | `Population Games` `MPC` `CasADi` `Python` |
-| [**ARGOS3000**](https://github.com/laristizabal1/ARGOS3000.git) | Multi-sensor wearable (ESP32-S3): LDR, PIR, TILT, MQ135, DHT22, with a gesture-triggered emergency protocol and 433 MHz RF communication between devices, plus a real-time embedded web dashboard | `ESP32-S3` `RF 433MHz` `WebServer` |
-| [**PV Array Emulator**](https://github.com/laristizabal1/PV-Emulator.git) | Traceable photovoltaic array emulator based on a programmable DC power supply, for DC microgrids | `Power Electronics` `DC Microgrids` `Instrumentation` |
+| [**MENTORU**](https://github.com/fg-edu-tep/MENTORU.git) | Distributed ESP32-based biometric monitoring system: multiple wearables (smartwatch, glasses, chest strap, GSR sensor) measure physiological and motion signals and broadcast them over a custom ESP-NOW protocol (ESB-P) to a central receiver that exposes live readings as JSON over HTTP | `ESP32` `ESP-NOW` `KiCad` `LVGL` |
 | [**limpiaVidrios**](https://github.com/fgutep/limpiaVidrios.git) | Window-cleaning robot governed by a motor state machine; NeoPixel voltage-level indicators, TCS34725 color sensor, MPU6050 IMU for orientation, gamepad control (Bluepad32), and WiFi telemetry. Collaborative project with Felipe Gutiérrez | `ESP32` `State Machines` `MPU6050` `NeoPixel` |
-| [**MENTORU**](https://github.com/fg-edu-tep/MENTORU.git) | Smart wearable for posture correction, with real-time IMU-based feedback | `ESP32` `MPU6050` `OLED` |
+| [**ARGOS3000**](https://github.com/laristizabal1/ARGOS3000.git) | Multi-sensor wearable (ESP32-S3): LDR, PIR, TILT, MQ135, DHT22, with a gesture-triggered emergency protocol and 433 MHz RF communication between devices, plus a real-time embedded web dashboard | `ESP32-S3` `RF 433MHz` `WebServer` |
 
 ---
 
