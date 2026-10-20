@@ -1,7 +1,7 @@
 <div align="center">
 
 # LUIS ARISTIZABAL
-### Electrical & Electronic Engineering — Technical Datasheet · Rev. 1.2
+### Electrical & Electronic Engineering — Technical Datasheet · Rev. 1.3
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-angel-aristizabal-correa-09015a359/)
 [![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luis0415angelco@gmail.com)
@@ -54,7 +54,8 @@ Dual-degree student in Electrical Engineering and Electronic Engineering at Univ
 | [**EV-Charging-GT**](https://github.com/laristizabal1/EV-Charging-GT.git) | Distributed EV charging coordination via Generalized Nash Equilibrium population games (PG-GNE), benchmarked against MPC and the centralized optimum (CasADi + IPOPT) | `Population Games` `MPC` `CasADi` `Python` |
 | [**MENTORU**](https://github.com/fg-edu-tep/MENTORU.git) | Distributed ESP32-based biometric monitoring system: multiple wearables (smartwatch, glasses, chest strap, GSR sensor) measure physiological and motion signals and broadcast them over a custom ESP-NOW protocol (ESB-P) to a central receiver that exposes live readings as JSON over HTTP. Collaborative project with [Felipe Gutiérrez](https://github.com/fgutep) | `ESP32` `ESP-NOW` `KiCad` `LVGL` |. 
 | [**limpiaVidrios**](https://github.com/fgutep/limpiaVidrios.git) | Window-cleaning robot governed by a motor state machine; NeoPixel voltage-level indicators, TCS34725 color sensor, MPU6050 IMU for orientation, gamepad control (Bluepad32), and WiFi telemetry. Collaborative project with [Felipe Gutiérrez](https://github.com/fgutep) | `ESP32` `State Machines` `MPU6050` `NeoPixel` |
-| [**ARGOS3000**](https://github.com/laristizabal1/ARGOS3000.git) | Multi-sensor wearable (ESP32-S3): LDR, PIR, TILT, MQ135, DHT22, with a gesture-triggered emergency protocol and 433 MHz RF communication between devices, plus a real-time embedded web dashboard. Collaborative project with [Juan Angulo](https://github.com/JuanAngulo1) | `ESP32-S3` `RF 433MHz` `WebServer` |
+| [**uPMU**](https://github.com/laristizabal1/uPMU.git) | Low-cost micro-PMU (phasor measurement unit) on an STM32F303K8, GPS-synchronized via PPS (NEO-7M): one voltage (ZMPT101B) and one current (SCT013-100) channel, 60 kS/s dual ADC, on-chip CIC filtering and phasor estimation, streaming frequency, RMS and angle at 30/25 reports/s. Targets IEEE C37.118.1 class M at 60 Hz/120 V and 50 Hz/220 V; firmware TVE validated against simulation over 14 test vectors (worst case 0.121 %). Analog front-end simulated in LTspice | `STM32` `Synchrophasors` `GPS PPS` `LTspice` `C` |
+| [**ORCA-Board**](https://github.com/fgutep/ORCA-Board.git) | Custom robotics hardware in two boards: an ESP32-S3 control board (DRV8874 motor drivers, PCA9685 servo driver, BNO085 IMU, INA226 power monitoring, CAN bus) and a 4-layer, 2 oz power board built around an LM5175 four-switch buck-boost controller (~10 A), simulated in LTspice across operating corners and routed by hand in KiCad. Collaborative project with [Felipe Gutiérrez](https://github.com/fgutep) and [Juan Angulo](https://github.com/JuanAngulo1) | `KiCad` `Buck-Boost` `ESP32-S3` `LTspice` `PCB Design` |
 
 ---
 
@@ -77,6 +78,7 @@ Dual-degree student in Electrical Engineering and Electronic Engineering at Univ
 | 1.0 | 2026-07 | Initial profile release |
 | 1.1 | 2026-07 | Added EV-Charging-GT (PG-GNE) and ARGOS3000; new distributed-control characteristic |
 | 1.2 | 2026-07 | Unified profile language to English |
+| 1.3 | 2026-10 | Added uPMU and ORCA-Board; removed ARGOS3000 |
 
 <div align="center">
 
